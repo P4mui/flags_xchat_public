@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "19318897c5acd29bd48a259a9f2aa90a36ae3cb2",
+    "feature_set_token" : "7584db9e1d090a292abbef95bd9dedcad430746d",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -3231,7 +3231,7 @@
         "value" : false
       },
       "ios_prevent_sleep_app_wide_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_prevent_sleep_video_enabled" : {
         "value" : false
@@ -3401,11 +3401,8 @@
       "ios_share_instagram_stories_video_max_seconds" : {
         "value" : 30.0
       },
-      "ios_share_sheet_2026_redesign_enabled" : {
-        "value" : true
-      },
       "ios_share_sheet_empty_state_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_share_sheet_enhanced_profile_sharing_enabled" : {
         "value" : true
@@ -3612,7 +3609,7 @@
         "value" : 8.0
       },
       "ios_tav_precacher_clear_on_background_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_tav_quality_view_threshold" : {
         "value" : 10.0
@@ -4337,6 +4334,12 @@
       "media_tab_immersive_drag_to_dock_enabled" : {
         "value" : false
       },
+      "media_tab_immersive_pip_deferred_controller_creation_enabled" : {
+        "value" : false
+      },
+      "media_tab_immersive_pip_dock_owned_controller_enabled" : {
+        "value" : false
+      },
       "media_tab_immersive_pip_trace_enabled" : {
         "value" : false
       },
@@ -4379,11 +4382,14 @@
       "media_upload_stop_idle_timer_while_upload_enabled" : {
         "value" : true
       },
+      "media_upload_video_captions_metadata_enabled" : {
+        "value" : false
+      },
       "media_upload_video_editor_caption_guides_enabled" : {
         "value" : true
       },
       "media_upload_video_editor_enabled" : {
-        "value" : false
+        "value" : true
       },
       "media_upload_video_editor_thumbnail_enabled" : {
         "value" : false
@@ -4479,10 +4485,10 @@
         "value" : true
       },
       "newscamera_tweet_background_video_editor_enabled" : {
-        "value" : false
+        "value" : true
       },
       "newscamera_video_recorder_redesign_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ntab_graphql_chrome_page_enabled" : {
         "value" : false
@@ -6278,6 +6284,12 @@
       "x_ios_photo_editor_grok_imagine_enabled" : {
         "value" : true
       },
+      "x_ios_photo_editor_image_overlay_enabled" : {
+        "value" : false
+      },
+      "x_ios_photo_editor_image_overlay_shapes_enabled" : {
+        "value" : false
+      },
       "x_ios_photo_editor_reply_enabled" : {
         "value" : true
       },
@@ -6309,7 +6321,7 @@
         "value" : true
       },
       "xai_profile_redirect_enabled" : {
-        "value" : false
+        "value" : true
       },
       "xchat_additional_reply_preview_validation_required_seqnum_str" : {
         "value" : "0"
@@ -6395,6 +6407,9 @@
       "xchat_inbox_conversation_local_pagination_page_size" : {
         "value" : 20.0
       },
+      "xchat_inbox_new_messages_preview_enabled" : {
+        "value" : false
+      },
       "xchat_invalid_sig_log_after_seq_num_str" : {
         "value" : "2058714665579446272"
       },
@@ -6427,6 +6442,9 @@
       },
       "xchat_max_message_plaintext_length_bytes" : {
         "value" : "11000"
+      },
+      "xchat_max_message_preview_size" : {
+        "value" : "500"
       },
       "xchat_max_users_to_fetch_per_request" : {
         "value" : 100.0
@@ -6558,7 +6576,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "159d8b674c3769a7eec490967dd2e71076aca799",
-    "experiments" : "159d8b674c3769a7eec490967dd2e71076aca799"
+    "feature_switches" : "f29bab35e72e6a9ba0b37b25d5c846be2c92518c",
+    "experiments" : "f29bab35e72e6a9ba0b37b25d5c846be2c92518c"
   }
 }
